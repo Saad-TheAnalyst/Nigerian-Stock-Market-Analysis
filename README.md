@@ -1,47 +1,104 @@
-# Nigerian Stock Market Analysis
+# Nigerian Stock Market Analysis Dashboard
 
 ## Overview
-Analysis of the Nigerian Stock Exchange (NSE) All Share 
-Index from 2015 to 2023 using Python, Pandas and Matplotlib 
-to uncover market trends, price movements and trading patterns.
+A comprehensive analysis of the Nigerian Stock Exchange 
+(NSE) All Share Index from 2012 to 2023 using Python, 
+Pandas, Matplotlib and Power BI to uncover market trends, 
+price movements, volatility patterns and trading volume 
+insights.
 
 ## Tools Used
 - Python
 - Pandas
 - Matplotlib
+- NumPy
+- Power BI
 - JupyterLab
 
 ## Questions Answered
-- What was the highest price ever recorded?
-- What was the lowest price ever recorded?
-- What was the best performing day?
-- What was the worst performing day?
-- How did the market trend over time?
-- What was the average daily trading volume?
+- How has the NSE All Share Index performed over 12 years?
+- What are the bull and bear market periods?
+- What is the market volatility?
+- Which years had the best and worst performance?
+- Which months perform best historically?
+- How has trading volume changed over the years?
+- What do the moving averages tell us about market trends?
 
 ## Key Findings
-- The highest NSE All Share Index price was 74,289.02 
-  recorded on December 21 2023.
 
-- The lowest price was 20,669.38 recorded on 
-  April 6 2020 likely due to COVID-19 market crash.
+### Overall Performance
+- The NSE All Share Index grew from an average of 
+  23,434 in 2012 to 60,980 in 2023 — a 160% increase 
+  over 12 years.
+- The highest price ever recorded was 74,289.02 
+  on December 21 2023.
+- The lowest price was 20,669.38 on April 6 2020 
+  during the COVID-19 market crash.
 
-- The best performing day was November 12 2020 with 
-  a 6.23% gain showing strong market recovery 
-  after the COVID-19 crash.
+### Moving Averages
+- Current 7-Day Moving Average is 73,061 showing 
+  strong short term momentum.
+- Current 30-Day Moving Average is 71,692 confirming 
+  the upward long term trend.
+- When the 7-Day MA crosses above the 30-Day MA 
+  it signals a buying opportunity.
 
-- The worst performing day was March 10 2020 with 
-  a -4.91% drop coinciding with the global 
-  COVID-19 market panic.
+### Volatility Analysis
+- Daily price volatility is 0.96% showing the 
+  market is relatively stable day to day.
+- The best single day return was 8.31% while 
+  the worst was -4.91%.
+- Average daily return is 0.05% showing a slight 
+  positive bias over time.
 
-- The average closing price over the entire period 
-  was 39,371.90 showing consistent market growth 
-  from 2015 to 2023.
+### Year Over Year Growth
+- 2013 was the best year with 52.88% growth 
+  driven by post-election economic optimism.
+- 2021 came second with 47.65% growth as the 
+  market recovered strongly from COVID-19.
+- 2019 was the worst year with -22.85% decline 
+  driven by economic uncertainty.
+- 2015 and 2016 were consecutive bear years 
+  with -21.50% and -13.85% declines driven 
+  by falling oil prices.
 
-- The average daily trading volume was 341,997,686 
-  with peak volumes reaching 5.44 billion on 
-  the most active trading days.
+### Bull and Bear Markets
+- Bull Markets: 2013, 2014, 2017, 2018, 2021, 
+  2022, 2023 — 7 out of 12 years were positive.
+- Bear Markets: 2015, 2016, 2019, 2020 — 4 years 
+  of negative performance.
+- The market has been in a strong bull run from 
+  2021 to 2023 showing strong recovery.
+
+### Monthly Performance
+- May is historically the best month with an 
+  average daily gain of 0.26%.
+- December comes second with 0.21% average gain 
+  driven by year-end rally.
+- March is historically the worst month with 
+  -0.08% average daily change.
+
+### Trading Volume
+- Trading volume grew massively from near zero 
+  in 2012-2014 to 497 million average daily 
+  volume in 2023.
+- 2023 had the highest average daily trading 
+  volume showing increasing investor participation.
+- The surge in volume from 2016 onwards coincides 
+  with increased retail investor participation 
+  through mobile trading platforms.
+
+## The Story of the Nigerian Stock Market
+The NSE All Share Index tells the story of Nigeria's 
+economic journey. The 2015-2016 bear market reflected 
+the oil price crash and foreign exchange crisis. The 
+2019-2020 decline captured the pre-COVID economic 
+slowdown and pandemic impact. But the remarkable 
+bull run from 2021 to 2023 — culminating in an 
+all-time high of 74,289 — shows the resilience 
+of Nigerian capital markets and growing investor 
+confidence in the economy.
 
 ## Dataset Source
-
 Kaggle - NSE All Share Historical Data
+kaggle.com/datasets/ifeanyichukwunwobodo/nigeria-stock-exchange-all-share-index
